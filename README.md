@@ -1,28 +1,20 @@
 # Startpage <!-- omit in toc --> 
 
-[Live preview (no weather as to not leak API key)](https://startpage.easun.me)
+[//]: # ([Live preview &#40;no weather as to not leak API key&#41;]&#40;https://startpage.easun.me&#41;)
 
-
-![startpage](preview.gif)
-
+[//]: # (![startpage]&#40;preview.gif&#41;)
 
 <!-- [Live Preview](https://kencx.github.io/startpage/) -->
-## Table of Contents <!-- omit in toc --> 
+
+## Table of Contents <!-- omit in toc-->
+    
 - [Installation](#installation)
-	- [Materials](#materials)
 	- [Instructions](#instructions)
 		- [Basic Setup](#basic-setup)
 		- [Getting an OpenWeatherMap API Key](#getting-an-openweathermap-api-key)
 		- [Changing the search engine](#changing-the-search-engine)
 		- [Using as a new tab/disabling animations](#using-as-a-new-tabdisabling-animations)
-- [Browser setup](#browser-setup)
-- [Misc. Info](#misc-info)
 ## Installation
-
-### Materials
-- Code editor (e.g. VSCode, Notepad++, etc.)
-- Basic html/css/js knowledge (optional, but recommended)
-- OpenWeatherMap API Key (only if you want to use the weather feature)
 
 ### Instructions
 
@@ -51,12 +43,12 @@
 #### Changing the search engine
 By default, the search engine is DuckDuckGo. You can change it to another search engine of choice by replacing the link in the `<form>` tag with another below.
 
-|Search Engine |Link  |
---- | --- |
-|Google|`https://google.com/search`|
-|Duckduckgo|`https://duckduckgo.com/`|
-|Bing|`https://bing.com/search`|
-|Ask Jeeves (why)|`https://askjeeves.net/results.html`|
+| Search Engine    |Link  |
+|------------------| --- |
+| Google           |`https://google.com/search`|
+| Duckduckgo       |`https://duckduckgo.com/`|
+| Bing             |`https://bing.com/search`|
+| Ask Jeeves (why) |`https://askjeeves.net/results.html`|
 
 #### Using as a new tab/disabling animations
 This is meant as a start page, and not a new tab page because of the animations. 
@@ -69,16 +61,3 @@ Use as a new tab (only step 3 to disable animations):
 3. Open `newTab.html` file in your code editor of choice.
    1. In the `<script>` tag, change the `animated` variable to `false`.
 4. In the extension settings, set the new tab page to `file:///[PATH TO STARTPAGE]/newTab.html` (example: `file:///D:/documents/startpage/newTab.html`)
-
-
-## Browser setup
-- Browser: Firefox
-- Theme: [Nord - Firefox Theme](https://www.deviantart.com/dpcdpc11/art/Nord-for-Firefox-837860916)
-- Font: Product Sans
-- Wallpaper: You can't have it
-
-## Misc. Info
-- Startpage Font: Source Code Pro
-- Cat Gif: [Here](https://twitter.com/avogado6/status/1165595520967954432?s=19)
-
-
